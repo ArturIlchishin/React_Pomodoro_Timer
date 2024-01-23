@@ -11,7 +11,7 @@ function App() {
   
   const startCount = () => {
       if(!timeRef.current) {
-      timeRef.current = setInterval(changingTime, 1000);
+          timeRef.current = setInterval(changingTime, 1000);
       }
   }
 
